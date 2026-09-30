@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Products | Irontech</title>
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="icon" href="assets/img/icon.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/pages/products.css">
+    <link rel="stylesheet" href="assets/css/pages/about.css">
+
+    <style>
+        .hero{
+    background: url('/assets/img/products/heroimg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    height: 70vh;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+    </style>
+
+</head>
+
+<body id="top">
+
+    <!-- ================================================================
+         BEGIN: SHARED HEADER / NAVBAR
+         ================================================================ -->
+    <nav>
+        <div class="top-bar">
+            <div class="top-left">
+                <i class="fas fa-clock"></i>
+                <span>Saturday - Thursday: 08:00 - 5:00 Friday: Closed</span>
+                <span class="divider">|</span>
+                <i class="fas fa-headset"></i>
+                <span> <a href="contact.html">Support</a> </span>
+            </div>
+        </div>
+
+        <div class="navbar-container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="Irontech">
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#" class="active">Products</a></li>
+                <li><a href="IWS.html">industries we serve</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+
+            <div class="nav-actions">
+
+                <button class="icon-btn"
+                        id="quickMenuBtn"
+                        type="button"
+                        aria-label="Open quick menu"
+                        aria-expanded="false">
+                    <svg width="18" height="18" fill="none"
+                         stroke="currentColor" stroke-width="2"
+                         viewBox="0 0 24 24">
+                        <rect x="3" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="3" width="7" height="7"></rect>
+                        <rect x="14" y="14" width="7" height="7"></rect>
+                        <rect x="3" y="14" width="7" height="7"></rect>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- ================================================================
+         END: SHARED HEADER / NAVBAR
+         ================================================================ -->
+
+<!-- ===== BEGIN: HERO ===== -->
+<section class="hero" data-scroll="zoom" style="background-image: url('assets/img/products/heroimg.jpeg');"></section>
+<!-- ===== END: HERO ===== -->
+
+    <main class="about-page">
+
+        <!-- ============================================================
+             BEGIN: MANUFACTURING INTRO
+             Exact information from the supplied reference image.
+             ============================================================ -->
+        <section class="manufacturing-intro" id="about-manufacturing" data-scroll="up">
+
+            <h1 data-writing>
+                Products
+            </h1>
+
+            <p data-text-reveal>
+                At Iron Tech, we specialize exclusively in the manufacturing of Rotogravure Printing Cylinders 
+                — delivering precision, durability, and world-class performance for the printing industry. 
+                With years of expertise and advanced technology, we ensure every cylinder meets international standards of quality and accuracy. 
+                Our mission is to support our clients with reliable, high-performance cylinders that enhance print quality and production efficiency.
+                At Iron Tech, excellence is engraved in every detail.
+            </p>
+
+        </section>
+    <!-- ============================================================
+         END: MANUFACTURING INTRO
+         ============================================================ -->
+      
+        
+
+
+        <!-- ============================================================
+             BEGIN: PRODUCT FEATURE / ROTOGRAVURE CYLINDERS
+             ============================================================ -->
+        <section class="product-feature-section" id="rotogravure-cylinders" data-scroll="up">
+
+            <div class="product-feature-content">
+
+                <div class="product-feature-text" data-scroll="left">
+
+                    <h2>Rotogravure Cylinders</h2>
+
+                    <p>
+                        Our rotogravure cylinders are engineered with precision and durability
+                        to deliver consistent, high-quality printing results. Manufactured using
+                        advanced CNC technologies — including laser engraving, plasma cutting,
+                        and CNC lathes — each cylinder meets international standards for
+                        accuracy, balance, and surface quality. At Iron Tech, we ensure every
+                        cylinder contributes to sharper prints, longer lifespan, and superior
+                        performance for the packaging and printing industries.
+                    </p>
+                </div>
+
+                <div class="product-feature-slider" data-scroll="right"
+                     aria-label="Rotogravure cylinders gallery">
+
+                    <div class="product-slider-track">
+
+                        <div class="product-slide is-active">
+                            <img src="assets/img/products/1.jpeg"
+                                 alt="Irontech Rotogravure Printing Cylinder">
+                        </div>
+
+                        <div class="product-slide">
+                            <img src="assets/img/products/2.jpeg"
+                                 alt="Irontech Rotogravure Printing Cylinder">
+                        </div>
+
+                        <div class="product-slide">
+                            <img src="assets/img/products/3.jpeg"
+                                 alt="Irontech Rotogravure Printing Cylinder">
+                        </div>
+
+                    </div>
+
+                    <button class="product-slider-arrow product-slider-prev"
+                            type="button"
+                            aria-label="Previous image">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <button class="product-slider-arrow product-slider-next"
+                            type="button"
+                            aria-label="Next image">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+
+                    <div class="product-slider-dots" aria-label="Choose image">
+                        <button type="button" class="is-active" aria-label="Image 1"></button>
+                        <button type="button" aria-label="Image 2"></button>
+                        <button type="button" aria-label="Image 3"></button>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <!-- ============================================================
+             END: PRODUCT FEATURE / ROTOGRAVURE CYLINDERS
+             ============================================================ -->
+
+
+        <!-- ============================================================
+             BEGIN: ADDITIONAL INDUSTRIAL PRODUCT SOLUTIONS
+             ============================================================ -->
+
+        <!-- Printing Equipment Solutions -->
+        <section class="industrial-solution-section solution-printing" data-scroll="up">
+            <div class="industrial-solution-content">
+                <div class="industrial-solution-media" data-scroll="left">
+                    <img src="assets/img/products/1 1.png"
+                         alt="Irontech Printing Equipment Solutions">
+                    <span class="industrial-solution-index">01</span>
+                </div>
+
+                <div class="industrial-solution-text" data-scroll="right">
+                    <span class="industrial-solution-label">PRINTING EQUIPMENT</span>
+                    <h2>Printing Equipment Solutions</h2>
+
+                    <div class="solution-block">
+                        <h3>Rotogravure Cylinders</h3>
+                        <p>
+                            We manufacture high-precision Rotogravure Cylinder Bodies according to the required
+                            dimensions and technical specifications. Each cylinder undergoes accurate machining,
+                            dynamic balancing, surface finishing, and quality inspection to ensure reliable
+                            performance and readiness for the subsequent engraving and surface-treatment processes.
+                        </p>
+                    </div>
+
+                    <div class="solution-block">
+                        <h3>Flexographic Cylinders</h3>
+                        <p>
+                            We manufacture Flexographic Cylinders for various printing-machine applications
+                            according to customer drawings and operating requirements, with precise dimensional
+                            control, high-quality surface finishing, and reliable dynamic performance.
+                        </p>
+                    </div>
+
+                    <div class="solution-highlights">
+                        <h3>Why Iron Tech Rotogravure Cylinders?</h3>
+                        <ul>
+                            <li>High-Precision Manufacturing</li>
+                            <li>Dynamic Balancing</li>
+                            <li>Excellent Surface Finish</li>
+                            <li>Long Service Life</li>
+                            <li>Custom Manufacturing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Industrial Fabrication Solutions -->
+        <section class="industrial-solution-section industrial-solution-reverse solution-fabrication" data-scroll="up">
+            <div class="industrial-solution-content">
+                <div class="industrial-solution-media" data-scroll="right">
+                    <img src="assets/img/products/1 2.png"
+                         alt="Irontech Industrial Flanges and Water Components">
+                    <span class="industrial-solution-index">02</span>
+                </div>
+
+                <div class="industrial-solution-text" data-scroll="left">
+                    <span class="industrial-solution-label">INDUSTRIAL FABRICATION</span>
+                    <h2>Industrial Fabrication Solutions</h2>
+
+                    <div class="solution-block">
+                        <h3>Industrial Flanges &amp; Water Components</h3>
+                        <p>
+                            Manufacturing industrial flanges for Water, Fire Fighting, and Oil &amp; Gas
+                            applications in standard sizes or according to customer drawings and required dimensions.
+                        </p>
+                    </div>
+
+                    <div class="solution-highlights">
+                        <h3>Our Products Include</h3>
+                        <ul>
+                            <li>Standard and Custom-Made Flanges</li>
+                            <li>Puddle Flanges</li>
+                            <li>Water Stops and Water-Control Components</li>
+                            <li>Anti-Vortex Plates</li>
+                            <li>Fabricated Pipe and Flange Components</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Steel Structures & Industrial Sections -->
+        <section class="industrial-solution-section solution-steel" data-scroll="up">
+            <div class="industrial-solution-content">
+                <div class="industrial-solution-media" data-scroll="left">
+                    <img src="assets/img/products/1 3.png"
+                         alt="Irontech Steel Structures and Industrial Sections">
+                    <span class="industrial-solution-index">03</span>
+                </div>
+
+                <div class="industrial-solution-text" data-scroll="right">
+                    <span class="industrial-solution-label">STEEL STRUCTURES</span>
+                    <h2>Steel Structures &amp; Industrial Sections</h2>
+
+                    <div class="solution-block">
+                        <p>
+                            Manufacturing and fabrication of steel structures, trusses, frames, supports,
+                            and industrial steel assemblies using steel plates and sections.
+                        </p>
+                        <p>
+                            Supply and preparation of various steel sections used in industrial, Water,
+                            Fire Fighting, and Oil &amp; Gas projects.
+                        </p>
+                    </div>
+
+                    <div class="solution-block">
+                        <h3>Metal Forming &amp; Fabrication</h3>
+                        <p>
+                            Metal-forming and fabrication solutions according to customer drawings, samples,
+                            and project requirements.
+                        </p>
+                        <ul>
+                            <li>Cutting and Material Preparation</li>
+                            <li>Metal Forming and Assembly</li>
+                            <li>Welding and Steel Fabrication</li>
+                            <li>Custom Industrial Components</li>
+                        </ul>
+                    </div>
+
+                    <div class="solution-block">
+                        <h3>Conventional Machining</h3>
+                        <p>
+                            Precision machining of industrial metal components using conventional lathes
+                            according to the required dimensions and tolerances.
+                        </p>
+                        <p class="solution-intro">Our machining capabilities include:</p>
+                        <ul>
+                            <li>Shafts, Bushings, and Sleeves</li>
+                            <li>Flanges and Machined Components</li>
+                            <li>Custom-Made Industrial Spare Parts</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================================================
+             END: ADDITIONAL INDUSTRIAL PRODUCT SOLUTIONS
+             ============================================================ -->
+
+    </main>
+
+
+    <!-- ===== BEGIN: NEWSLETTER & FOOTER ===== -->
+<section class="newsletter-footer-wrap" data-scroll="up">
+
+    <!-- ===== BEGIN: PREMIUM SOCIAL CONNECT ===== -->
+    <div class="newsletter-box social-connect-box" data-scroll="zoom">
+        <div class="social-connect-intro" data-scroll="left">
+            <h2 class="newsletter-title">Industry Connect <br>
+                <span>Industrial Solutions.</span></h2>
+            <p>Stay connected with Irontech and discover our latest industrial solutions, projects, capabilities, and updates.</p>
+        </div>
+
+        <div class="social-connect-grid" data-scroll="right">
+            <a href="#" class="social-connect-card facebook">
+                <span class="social-card-icon"><i class="fab fa-facebook-f"></i></span>
+                <span class="social-card-content">
+                    <strong>Facebook</strong>
+                    <small>Follow Irontech Industry news & company updates</small>
+                </span>
+                <span class="social-card-arrow">↗</span>
+            </a>
+
+            <a href="#" class="social-connect-card instagram">
+                <span class="social-card-icon"><i class="fab fa-instagram"></i></span>
+                <span class="social-card-content">
+                    <strong>Instagram</strong>
+                    <small>Explore Irontech Projects, products & industrial solutions</small>
+                </span>
+                <span class="social-card-arrow">↗</span>
+            </a>
+
+            <a href="#" class="social-connect-card instagram">
+                <span class="social-card-icon"><i class="fab fa-tiktok"></i></span>
+                <span class="social-card-content">
+                    <strong>Tiktok</strong>
+                    <small>See Irontech in Action Industrial processes & latest projects</small>
+                </span>
+                <span class="social-card-arrow">↗</span>
+            </a>
+            <a href="#" class="social-connect-card instagram">
+                <span class="social-card-icon"><i class="fab fa-linkedin"></i></span>
+                <span class="social-card-content">
+                    <strong>Linkedin</strong>
+                    <small>Connect with Irontech Industry insights, projects & business updates</small>
+                </span>
+                <span class="social-card-arrow">↗</span>
+            </a>
+</div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+
+            <div class="footer-brand" data-scroll="left">
+                <img src="./assets/img/logo.png" alt="Irontech">
+
+                <p>High-quality carbon steel solutions, meeting international standards with reliability.</p>
+
+                
+            </div>
+
+            <div class="footer-column" data-scroll="up">
+                <h3>Services</h3>
+                <a href="#">Stracture Steel</a>
+                <a href="#">Plasma CNC</a>
+                <a href="#">cylinders</a>
+                <a href="#">Lathe</a>
+            </div>
+
+            <div class="footer-column" data-scroll="up">
+                <h3>Links</h3>
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="services.html">Services</a>
+                <a href="products.html">Products</a>
+                <a href="IWS.html">industries we serve</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+
+            <div class="footer-contact" data-scroll="right">
+                <h3>Contact Info</h3>
+                <p>Plot No. 143, 3rd Industrial Zone Extension, 6th of October City, Giza, Egypt.</p>
+                <p>P: <a href="#">+20 100 275 051 6</a> </p>
+                <p>E: <a href="#">info@irontecheg.com</a> </p>
+
+                <p class="footer-hours">
+                    <i class="far fa-clock"></i>
+                    <span> Saturday - Thursday: 08:00 - 5:00
+                        Friday: Closed</span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p><a href="https://7elmak.com/">7elmak IT Solution</a>  © 2026. All right reserved.</p>
+
+        </div>
+    </footer>
+</section>
+    <!-- ===== END: NEWSLETTER & FOOTER ===== -->
+
+
+<!-- =====================================================================
+     BEGIN: QUICK FOOTER DRAWER
+     ===================================================================== -->
+<div class="quick-menu-overlay" id="quickMenuOverlay"></div>
+
+<aside class="quick-footer-drawer" id="quickFooterDrawer" aria-hidden="true">
+    <div class="quick-footer-head">
+        <img class="quick-footer-logo" src="./assets/img/logo.png" alt="Irontech">
+        <button class="quick-footer-close" id="quickMenuClose" type="button" aria-label="Close quick menu">×</button>
+    </div>
+
+    <p class="quick-footer-kicker">Quick Access</p>
+    <div class="quick-footer-section">
+        <h4>Quick Links</h4>
+        <nav class="quick-footer-links" aria-label="Quick links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="services.html">Services</a>
+            <a href="products.html">Products</a>
+            <a href="IWS.html">industries we serve</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </div>
+
+    <div class="quick-footer-section">
+        <h4>Our Services</h4>
+        <nav class="quick-footer-links" aria-label="Services">
+            <a href="services.html">Stracture Steel</a>
+            <a href="services.html">Plasma CNC</a>
+            <a href="products.html">cylinders</a>
+            <a href="services.html">Lathe</a>
+        </nav>
+    </div>
+
+    <div class="quick-footer-section">
+        <h4>Contact</h4>
+        <div class="quick-footer-contact">
+            <a href="tel:+201002750516">+20 100 275 051 6</a>
+            <a href="mailto:info@irontecheg.com">info@irontecheg.com</a>
+            <span>6th of October, Egypt</span>
+        </div>
+    </div>
+
+    <div class="quick-footer-section">
+        <h4>Follow Us</h4>
+        <div class="quick-footer-socials">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            <a href="#" aria-label="Linkedin"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="quick-footer-bottom">
+        Saturday - Thursday: 08:00 - 17:00 &nbsp; · &nbsp; Friday: Closed
+    </div>
+</aside>
+
+<!-- WhatsApp Floating Button -->
+<a href="https://wa.me/+201002750516"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat with us on WhatsApp">
+
+    <i class="fab fa-whatsapp"></i>
+
+</a>
+<!-- ===== END: QUICK FOOTER DRAWER ===== -->
+
+    
+<script src="assets/js/menu.js"></script>
+
+<script>
+/* =====================================================================
+   BEGIN: SCROLL REVEAL SCRIPT
+   ===================================================================== */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+    /* ---------------------------------------------------------------
+       GENERAL ELEMENTS
+       --------------------------------------------------------------- */
+    const animatedElements = document.querySelectorAll(
+        ".feature-card, .service-box, .insight-card, .stat-item, " +
+        ".footer-column a, .store-badge, .social-circle, .company-card"
+    );
+
+    animatedElements.forEach((element, index) => {
+        if (!element.hasAttribute("data-scroll")) {
+            element.setAttribute("data-scroll", "up");
+        }
+
+        const delay = (index % 5) + 1;
+        element.setAttribute("data-scroll-delay", delay);
+    });
+
+    const scrollObserver = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        {
+            threshold: 0.14,
+            rootMargin: "0px 0px -50px 0px"
+        }
+    );
+
+    document.querySelectorAll("[data-scroll]").forEach((element) => {
+        scrollObserver.observe(element);
+    });
+
+    /* ---------------------------------------------------------------
+       TEXT ANIMATION
+       --------------------------------------------------------------- */
+    const textObserver = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("is-text-visible");
+                    observer.unobserve(entry.target);
+                }
+            });
+        },
+        {
+            threshold: 0.2,
+            rootMargin: "0px 0px -30px 0px"
+        }
+    );
+
+    document.querySelectorAll("[data-text-reveal]").forEach((element, index) => {
+        element.style.transitionDelay = `${(index % 4) * 0.09}s`;
+        textObserver.observe(element);
+    });
+
+    /* ---------------------------------------------------------------
+       NUMBER COUNTER
+       --------------------------------------------------------------- */
+    const counterObserver = new IntersectionObserver(
+        (entries, observer) => {
+            entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+
+                const counter = entry.target;
+                const valueElement = counter.querySelector(".counter-value");
+                const target = Number(counter.dataset.target || 0);
+                const suffix = counter.dataset.suffix || "";
+
+                counter.classList.add("counter-visible");
+
+                const duration = 1400;
+                const startTime = performance.now();
+
+                const animateNumber = (currentTime) => {
+                    const progress = Math.min(
+                        (currentTime - startTime) / duration,
+                        1
+                    );
+
+                    /* Ease-out cubic */
+                    const eased = 1 - Math.pow(1 - progress, 3);
+                    const currentValue = Math.floor(target * eased);
+
+                    valueElement.textContent = currentValue + suffix;
+
+                    if (progress < 1) {
+                        requestAnimationFrame(animateNumber);
+                    } else {
+                        valueElement.textContent = target + suffix;
+                    }
+                };
+
+                requestAnimationFrame(animateNumber);
+                observer.unobserve(counter);
+            });
+        },
+        {
+            threshold: 0.5,
+            rootMargin: "0px 0px -40px 0px"
+        }
+    );
+
+    document.querySelectorAll("[data-counter]").forEach((counter) => {
+        counterObserver.observe(counter);
+    });
+});
+
+/* =====================================================================
+   END: SCROLL REVEAL SCRIPT
+   =====================================================================
+ */
+
+</script>
+
+
+
+<!-- =====================================================================
+     BEGIN: SPECIAL WRITING ANIMATION SCRIPT FOR HEADINGS
+     ===================================================================== -->
+<script>
+(function () {
+    const headings = document.querySelectorAll('[data-writing]');
+
+    headings.forEach((heading) => {
+        let charIndex = 0;
+        const walker = document.createTreeWalker(
+            heading,
+            NodeFilter.SHOW_TEXT,
+            {
+                acceptNode(node) {
+                    return node.textContent.trim()
+                        ? NodeFilter.FILTER_ACCEPT
+                        : NodeFilter.FILTER_REJECT;
+                }
+            }
+        );
+
+        const textNodes = [];
+        while (walker.nextNode()) {
+            textNodes.push(walker.currentNode);
+        }
+
+        textNodes.forEach((node) => {
+            const fragment = document.createDocumentFragment();
+
+            [...node.textContent].forEach((char) => {
+                const span = document.createElement('span');
+                span.className = 'writing-char';
+                span.style.setProperty('--char-index', charIndex++);
+                span.textContent = char;
+                fragment.appendChild(span);
+            });
+
+            node.parentNode.replaceChild(fragment, node);
+        });
+    });
+
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        headings.forEach((heading) => heading.classList.add('is-writing'));
+        return;
+    }
+
+    const writingObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+
+            entry.target.classList.add('is-writing');
+            observer.unobserve(entry.target);
+        });
+    }, {
+        threshold: 0.18,
+        rootMargin: '0px 0px -8% 0px'
+    });
+
+    headings.forEach((heading) => writingObserver.observe(heading));
+})();
+</script>
+<!-- =====================================================================
+     END: SPECIAL WRITING ANIMATION SCRIPT FOR HEADINGS
+     ===================================================================== -->
+
+
+
+<script>
+/* =====================================================================
+   BEGIN: ROTOGRAVURE PRODUCT SLIDER
+   ===================================================================== */
+document.addEventListener("DOMContentLoaded", function () {
+    const slider = document.querySelector(".product-feature-slider");
+
+    if (!slider) return;
+
+    const slides = Array.from(slider.querySelectorAll(".product-slide"));
+    const dots = Array.from(slider.querySelectorAll(".product-slider-dots button"));
+    const prevBtn = slider.querySelector(".product-slider-prev");
+    const nextBtn = slider.querySelector(".product-slider-next");
+
+    let currentIndex = 0;
+    let autoplayTimer = null;
+
+    // الوقت بين كل صورة والتانية: 4.5 ثواني
+    const autoplayDelay = 4500;
+
+    function showSlide(index) {
+        currentIndex = (index + slides.length) % slides.length;
+
+        slides.forEach((slide, i) => {
+            slide.classList.toggle("is-active", i === currentIndex);
+        });
+
+        dots.forEach((dot, i) => {
+            dot.classList.toggle("is-active", i === currentIndex);
+            dot.setAttribute(
+                "aria-current",
+                i === currentIndex ? "true" : "false"
+            );
+        });
+    }
+
+    function nextSlide() {
+        showSlide(currentIndex + 1);
+    }
+
+    function prevSlide() {
+        showSlide(currentIndex - 1);
+    }
+
+    function stopAutoplay() {
+        if (autoplayTimer) {
+            clearInterval(autoplayTimer);
+            autoplayTimer = null;
+        }
+    }
+
+    function startAutoplay() {
+        stopAutoplay();
+
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+            return;
+        }
+
+        autoplayTimer = setInterval(nextSlide, autoplayDelay);
+    }
+
+    nextBtn.addEventListener("click", function () {
+        nextSlide();
+        startAutoplay();
+    });
+
+    prevBtn.addEventListener("click", function () {
+        prevSlide();
+        startAutoplay();
+    });
+
+    dots.forEach((dot, index) => {
+        dot.addEventListener("click", function () {
+            showSlide(index);
+            startAutoplay();
+        });
+    });
+
+    // إيقاف الحركة أثناء وقوف الماوس على الصورة
+    slider.addEventListener("mouseenter", stopAutoplay);
+    slider.addEventListener("mouseleave", startAutoplay);
+
+    // وإيقافها أثناء التنقل بالكيبورد
+    slider.addEventListener("focusin", stopAutoplay);
+    slider.addEventListener("focusout", function (event) {
+        if (!slider.contains(event.relatedTarget)) {
+            startAutoplay();
+        }
+    });
+
+    document.addEventListener("visibilitychange", function () {
+        if (document.hidden) {
+            stopAutoplay();
+        } else {
+            startAutoplay();
+        }
+    });
+
+    showSlide(0);
+    startAutoplay();
+});
+/* =====================================================================
+   END: ROTOGRAVURE PRODUCT SLIDER
+   ===================================================================== */
+</script>
+
+<script>
+/* =====================================================================
+   BEGIN: QUICK FOOTER DRAWER SCRIPT
+   ===================================================================== */
+document.addEventListener("DOMContentLoaded", function () {
+    const openBtn = document.getElementById("quickMenuBtn");
+    const closeBtn = document.getElementById("quickMenuClose");
+    const drawer = document.getElementById("quickFooterDrawer");
+    const overlay = document.getElementById("quickMenuOverlay");
+
+    if (!openBtn || !closeBtn || !drawer || !overlay) return;
+
+    const openMenu = () => {
+        document.body.classList.add("quick-menu-open");
+        overlay.classList.add("is-open");
+        drawer.classList.add("is-open");
+        openBtn.setAttribute("aria-expanded", "true");
+        drawer.setAttribute("aria-hidden", "false");
+    };
+
+    const closeMenu = () => {
+        drawer.classList.remove("is-open");
+        overlay.classList.remove("is-open");
+        document.body.classList.remove("quick-menu-open");
+        openBtn.setAttribute("aria-expanded", "false");
+        drawer.setAttribute("aria-hidden", "true");
+    };
+
+    openBtn.addEventListener("click", openMenu);
+    closeBtn.addEventListener("click", closeMenu);
+    overlay.addEventListener("click", closeMenu);
+
+    document.addEventListener("keydown", function (event) {
+        if (event.key === "Escape" && drawer.classList.contains("is-open")) {
+            closeMenu();
+        }
+    });
+
+    drawer.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", closeMenu);
+    });
+});
+/* ===== END: QUICK FOOTER DRAWER SCRIPT ===== */
+</script>
+
+
+
+</body>
+</html>

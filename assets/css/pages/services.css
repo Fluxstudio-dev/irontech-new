@@ -1,0 +1,373 @@
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    height: 70vh;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.manufacturing-intro {
+    width: min(1120px, calc(100% - 48px));
+    margin: 0 auto;
+    padding: 58px 34px 115px;
+    text-align: center;
+    position: relative;
+}
+
+.manufacturing-intro::before {
+    display: block;
+    margin-bottom: 22px;
+    color: #A70E13;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 3px;
+    line-height: 1;
+}
+
+.manufacturing-intro h1 {
+    max-width: 900px;
+    margin: 0 auto 28px;
+    font-size: clamp(42px, 6vw, 72px);
+    line-height: 1.02;
+    font-weight: 750;
+}
+
+.manufacturing-intro p {
+    width: min(780px, 100%);
+    margin: 0 auto;
+    color: #62666b;
+    font-size: 15px;
+    line-height: 1.9;
+}
+.manufacturing-intro h3 {
+    width: min(780px, 100%);
+    margin: 22px auto;
+    color: #ff0000;
+    font-size: 15px;
+    line-height: 1.9;
+}
+
+/* ================================================================
+   BEGIN: SERVICES / BUSINESS UNITS — PREMIUM INDUSTRIAL
+   ================================================================ */
+
+.services-grid-section {
+    position: relative;
+    margin: 35px 28px 80px;
+    padding: 95px 55px 100px;
+    overflow: hidden;
+    border-radius: 30px;
+    background:
+        radial-gradient(circle at 85% 15%, rgba(167, 14, 19, 0.16), transparent 28%),
+        linear-gradient(135deg, #0b0b0c 0%, #151617 52%, #0d0e0f 100%);
+    isolation: isolate;
+}
+
+/* Industrial grid texture */
+.services-grid-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    opacity: 0.18;
+    background-image:
+        linear-gradient(rgba(255,255,255,0.055) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.055) 1px, transparent 1px);
+    background-size: 55px 55px;
+    mask-image: linear-gradient(to bottom, black, transparent 90%);
+    pointer-events: none;
+}
+
+/* Red industrial accent */
+.services-grid-section::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 170px;
+    height: 4px;
+    background: #A70E13;
+    box-shadow: 0 0 30px rgba(167, 14, 19, 0.55);
+}
+
+/* Section heading created without changing HTML */
+.services-grid-section .services-grid {
+    position: relative;
+}
+
+.services-grid-section .services-grid::before {
+    content: "OUR CAPABILITIES";
+    display: block;
+    grid-column: 1 / -1;
+    margin-bottom: 8px;
+    color: #A70E13;
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.services-grid-section .services-grid::after {
+    display: block;
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-bottom: 28px;
+    color: rgba(255,255,255,0.55);
+    font-size: 14px;
+    letter-spacing: 0.4px;
+    text-align: center;
+}
+
+/* Grid */
+.services-grid {
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 26px;
+    align-items: stretch;
+}
+
+/* ================================================================
+   SERVICE CARD
+   ================================================================ */
+
+.service-card {
+    width: 100%;
+    min-width: 0;
+    min-height: 445px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    text-align: left;
+    border: 1px solid rgba(255,255,255,0.10);
+    border-radius: 18px;
+    background: #171819;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.22);
+    isolation: isolate;
+    transition:
+        transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
+        border-color 0.45s ease,
+        box-shadow 0.45s ease;
+}
+
+/* Number */
+.service-card::before {
+    content: "01";
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    z-index: 4;
+    color: rgba(255,255,255,0.92);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 1;
+    padding: 9px 11px;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 6px;
+    background: rgba(0,0,0,0.38);
+    backdrop-filter: blur(8px);
+}
+
+.service-card:nth-child(2)::before { content: "02"; }
+.service-card:nth-child(3)::before { content: "03"; }
+.service-card:nth-child(4)::before { content: "04"; }
+
+.service-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 2;
+    pointer-events: none;
+    background:
+        linear-gradient(
+            180deg,
+            rgba(0,0,0,0.02) 25%,
+            rgba(0,0,0,0.12) 42%,
+            rgba(0,0,0,0.90) 100%
+        );
+}
+
+.service-card:hover {
+    transform: translateY(-8px);
+    border-color: rgba(167,14,19,0.65);
+    box-shadow:
+        0 28px 65px rgba(0,0,0,0.34),
+        0 0 0 1px rgba(167,14,19,0.08);
+}
+
+/* Image */
+.service-card-image {
+    width: 100%;
+    height: 100%;
+    min-height: 445px;
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    border-radius: inherit;
+    background: #111;
+}
+
+.service-card-image::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0,0,0,0.10),
+            transparent 55%,
+            rgba(167,14,19,0.08)
+        );
+    pointer-events: none;
+}
+
+.service-card-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    filter: saturate(0.88) contrast(1.04);
+    transition:
+        transform 0.8s cubic-bezier(0.22, 1, 0.36, 1),
+        filter 0.6s ease;
+}
+
+.service-card:hover .service-card-image img {
+    transform: scale(1.06);
+    filter: saturate(1) contrast(1.07);
+}
+
+/* Content anchored at bottom */
+.service-card-content {
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 34px 34px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.service-card-content h2 {
+    max-width: 620px;
+    margin: 0 0 13px;
+    color: #fff;
+    font-size: clamp(22px, 2.2vw, 29px);
+    line-height: 1.12;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    text-align: left;
+}
+
+.service-card-content h2::after {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 3px;
+    margin: 13px 0 0;
+    border-radius: 999px;
+    background: #A70E13;
+    box-shadow: 0 0 14px rgba(167,14,19,0.45);
+    transition: width 0.45s ease;
+}
+
+.service-card:hover .service-card-content h2::after {
+    width: 70px;
+}
+
+.service-card-content p {
+    width: 100%;
+    max-width: 620px;
+    margin: 0;
+    color: rgba(255,255,255,0.76);
+    font-size: 14px;
+    line-height: 1.75;
+    text-align: left;
+}
+
+/* ================================================================
+   RESPONSIVE
+   ================================================================ */
+
+@media (max-width: 950px) {
+    .services-grid-section {
+        margin: 28px 20px 65px;
+        padding: 75px 28px 80px;
+    }
+
+    .services-grid {
+        gap: 20px;
+    }
+
+    .service-card,
+    .service-card-image {
+        min-height: 420px;
+    }
+
+    .service-card-content {
+        padding: 28px;
+    }
+
+    .service-card-content h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .services-grid-section {
+        width: calc(100% - 28px);
+        margin: 20px auto 55px;
+        padding: 70px 15px 65px;
+        border-radius: 22px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .service-card,
+    .service-card-image {
+        min-height: 390px;
+    }
+
+    .service-card-content {
+        padding: 25px 23px 25px;
+    }
+
+    .service-card-content h2 {
+        font-size: 21px;
+    }
+
+    .service-card-content p {
+        font-size: 13.5px;
+        line-height: 1.7;
+    }
+
+    .service-card::before {
+        top: 18px;
+        left: 18px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .service-card,
+    .service-card-image img,
+    .service-card-content h2::after {
+        transition: none;
+    }
+}
+
+/* ================================================================
+   END: SERVICES / BUSINESS UNITS
+   ================================================================ */
